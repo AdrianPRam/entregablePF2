@@ -45,7 +45,6 @@ class _PersonalPageState extends State<PersonalPage> {
             const SizedBox(height: 10),
             TextField(
               controller: fechaController,
-              readOnly: true,
               decoration: const InputDecoration(
                 labelText: "Fecha de nacimiento",
                 suffixIcon: Icon(Icons.calendar_today),
